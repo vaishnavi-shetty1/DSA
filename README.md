@@ -1,2 +1,3 @@
-This is my new repositatory
+
 # new_repo
+This is my new repositatory
