@@ -8,14 +8,14 @@ int sem;
 long int phone;
 struct node *link;
 };
-typedef struct node *NODE;
+typedef struct node NODE;
 
 NODE *start=NULL;
 int count=0;
 
 NODE *create()
 {
-NODE *newode;
+NODE *newnode;
 newnode=(NODE*)malloc(sizeof(NODE));
 if(newnode==NULL)
 {
