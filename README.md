@@ -1,4 +1,4 @@
-## calculator.c
+## calendar.c
 
 This program allows the user to manage a weekly activity calendar. It dynamically stores details for each day of the week, such as the day name, date, and activity. The program allows the user to input these details, displays the entire week's schedule, and ensures that memory is properly managed with dynamic allocation and deallocation.
 
