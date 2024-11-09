@@ -25,15 +25,26 @@ This is a simple C program that evaluates postfix expressions using a stack-base
 
 Features
 
-Evaluates postfix expressions.
-Supports the following operators:
-* Addition +
-* Subtraction -
-* Multiplication *
-* Division /
-* Modulo %
-* Exponentiation, represented as ^ or $
-  
-Handles integer inputs.
+* Evaluates postfix expressions.
+* Supports the following operators:
+  * Addition +
+  * Subtraction -
+  * Multiplication *
+  * Division /
+  * Modulo %
+  * Exponentiation, represented as ^ or $  
+* Handles integer inputs.
+* Uses a stack data structure to evaluate the expression.
 
-Uses a stack data structure to evaluate the expression.
+# queue.c
+This repository contains a C program that implements a Circular Queue using an array. It provides operations to insert, delete, and display elements in the circular queue. This implementation makes use of modular arithmetic to efficiently manage the queue's circular nature.
+
+Features
+
+* Implements a Circular Queue with a fixed-size array.
+* Supports the following operations:
+  * Insert (enqueue) an element into the queue.
+  * Delete (dequeue) an element from the queue.
+  * Display the elements currently in the queue.
+* Handles Queue Overflow and Queue Underflow conditions.
+* The queue works in a circular manner, allowing efficient use of memory.
