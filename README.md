@@ -8,6 +8,45 @@ Features
 * Display the Weekly Schedule: After entering the details, the program displays the week's schedule in a formatted table.
 * Memory Management: Allocated memory is freed after use to prevent memory leaks.
 
+# postfix.c
+This C program converts an infix expression (standard mathematical notation) to a postfix expression (Reverse Polish Notation). It handles operators like +, -, *, /, %, ^, and $, as well as parentheses for grouping.
+
+Overview
+
+The program uses a stack-based algorithm to convert an infix expression to a postfix expression. The main logic relies on operator precedence and associativity rules to handle the conversion. The program prompts the user to input a valid infix expression and outputs the corresponding postfix expression.
+
+Features
+* Converts infix expressions to postfix notation.
+* Supports common arithmetic operators: +, -, *, /, %, ^, $.
+* Handles parentheses for proper precedence.
+* Implements operator precedence using a stack.
+* Assumes valid input expressions (no error handling for malformed input).
+  
+Code Explanation
+
+Functions
+* F(char symbol):
+This function returns the precedence value of an operator. It is used to compare the precedence of operators currently in the stack with the incoming operator.
+
+* G(char symbol):
+This function returns the precedence value of the operator at the current position in the infix expression.
+
+* infix_postfix(char infix[], char postfix[]):
+The core function that performs the conversion from infix to postfix using a stack.
+
+* main():
+The entry point of the program. It prompts the user for an infix expression, calls the conversion function, and then displays both the original infix expression and the resulting postfix expression.
+
+Operator Precedence
+
+The precedence values used are as follows:
+
+* +, -: Precedence 2
+* *, /, %: Precedence 4
+* ^, $: Precedence 5
+* Parentheses (: Precedence 0
+* End of expression marker #: Precedence -1
+
 # queue.c
 This repository contains a C program that implements a Circular Queue using an array. It provides operations to insert, delete, and display elements in the circular queue. This implementation makes use of modular arithmetic to efficiently manage the queue's circular nature.
 
@@ -47,45 +86,3 @@ Features
   * Exponentiation, represented as ^ or $  
 * Handles integer inputs.
 * Uses a stack data structure to evaluate the expression.
-
-
-
-
-# postfix.c
-This C program converts an infix expression (standard mathematical notation) to a postfix expression (Reverse Polish Notation). It handles operators like +, -, *, /, %, ^, and $, as well as parentheses for grouping.
-
-Overview
-
-The program uses a stack-based algorithm to convert an infix expression to a postfix expression. The main logic relies on operator precedence and associativity rules to handle the conversion. The program prompts the user to input a valid infix expression and outputs the corresponding postfix expression.
-
-Features
-* Converts infix expressions to postfix notation.
-* Supports common arithmetic operators: +, -, *, /, %, ^, $.
-* Handles parentheses for proper precedence.
-* Implements operator precedence using a stack.
-* Assumes valid input expressions (no error handling for malformed input).
-  
-Code Explanation
-
-Functions
-* F(char symbol):
-This function returns the precedence value of an operator. It is used to compare the precedence of operators currently in the stack with the incoming operator.
-
-* G(char symbol):
-This function returns the precedence value of the operator at the current position in the infix expression.
-
-* infix_postfix(char infix[], char postfix[]):
-The core function that performs the conversion from infix to postfix using a stack.
-
-* main():
-The entry point of the program. It prompts the user for an infix expression, calls the conversion function, and then displays both the original infix expression and the resulting postfix expression.
-
-Operator Precedence
-
-The precedence values used are as follows:
-
-* +, -: Precedence 2
-* *, /, %: Precedence 4
-* ^, $: Precedence 5
-* Parentheses (: Precedence 0
-* End of expression marker #: Precedence -1
