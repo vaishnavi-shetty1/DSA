@@ -8,6 +8,18 @@ Features
 * Display the Weekly Schedule: After entering the details, the program displays the week's schedule in a formatted table.
 * Memory Management: Allocated memory is freed after use to prevent memory leaks.
 
+# queue.c
+This repository contains a C program that implements a Circular Queue using an array. It provides operations to insert, delete, and display elements in the circular queue. This implementation makes use of modular arithmetic to efficiently manage the queue's circular nature.
+
+Features
+
+* Implements a Circular Queue with a fixed-size array.
+* Supports the following operations:
+  * Insert (enqueue) an element into the queue.
+  * Delete (dequeue) an element from the queue.
+  * Display the elements currently in the queue.
+* Handles Queue Overflow and Queue Underflow conditions.
+* The queue works in a circular manner, allowing efficient use of memory.
 
 # stack.c
 This repository contains a simple C program that demonstrates basic stack operations, including Push, Pop, Display, and Palindrome Check using a stack data structure. The stack has a fixed size, and the program includes error handling for stack overflow and underflow scenarios.
@@ -37,18 +49,7 @@ Features
 * Uses a stack data structure to evaluate the expression.
 
 
-# queue.c
-This repository contains a C program that implements a Circular Queue using an array. It provides operations to insert, delete, and display elements in the circular queue. This implementation makes use of modular arithmetic to efficiently manage the queue's circular nature.
 
-Features
-
-* Implements a Circular Queue with a fixed-size array.
-* Supports the following operations:
-  * Insert (enqueue) an element into the queue.
-  * Delete (dequeue) an element from the queue.
-  * Display the elements currently in the queue.
-* Handles Queue Overflow and Queue Underflow conditions.
-* The queue works in a circular manner, allowing efficient use of memory.
 
 # postfix.c
 This C program converts an infix expression (standard mathematical notation) to a postfix expression (Reverse Polish Notation). It handles operators like +, -, *, /, %, ^, and $, as well as parentheses for grouping.
