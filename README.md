@@ -7,6 +7,19 @@ Features
 * User Input: The program allows the user to input the name of the day, the date, and the activity for each day.
 * Display the Weekly Schedule: After entering the details, the program displays the week's schedule in a formatted table.
 * Memory Management: Allocated memory is freed after use to prevent memory leaks.
+  
+# patternmatching.c
+This C program performs a simple pattern matching and replacement operation on a given string. The program takes in three inputs:
+* Main string - the string in which the pattern will be searched.
+* Pattern string - the substring that will be searched for within the main string.
+* Replace string - the substring that will replace the first occurrence of the pattern in the main string.
+  
+If the pattern is found, it is replaced with the replace string; if not, the program will inform the user that the pattern was not found.
+
+Features
+* Search for a substring (pattern) in a given string.
+* Replace the first occurrence of the pattern with a new substring (replacement string).
+* Outputs the modified string if the pattern is found, or a message stating the pattern was not found.
 
 # postfix.c
 This C program converts an infix expression (standard mathematical notation) to a postfix expression (Reverse Polish Notation). It handles operators like +, -, *, /, %, ^, and $, as well as parentheses for grouping.
