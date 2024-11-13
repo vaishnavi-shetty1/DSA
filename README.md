@@ -2,12 +2,24 @@
 This program allows the user to manage a weekly activity calendar. It dynamically stores details for each day of the week, such as the day name, date, and activity. The program allows the user to input these details, displays the entire week's schedule, and ensures that memory is properly managed with dynamic allocation and deallocation.
 
 Features
-
 * Dynamic Memory Allocation: Memory for day names and activities is allocated dynamically, so it can handle input of varying sizes.
 * User Input: The program allows the user to input the name of the day, the date, and the activity for each day.
 * Display the Weekly Schedule: After entering the details, the program displays the week's schedule in a formatted table.
 * Memory Management: Allocated memory is freed after use to prevent memory leaks.
-  
+
+# hanoi.c
+This C program solves the Tower of Hanoi puzzle using recursion. It calculates the minimum number of moves required to transfer all discs from the source peg to the destination peg while adhering to the rules of the game:
+
+* Only one disc can be moved at a time.
+* A disc can only be placed on top of a larger disc or on an empty peg.
+* The puzzle involves moving all the discs from the source peg to the destination peg with the help of an auxiliary (temporary) peg.
+The program prints the sequence of moves required to solve the puzzle for a given number of discs.
+
+Features
+* Solves the Tower of Hanoi puzzle for any number of discs.
+* Displays each move in the format "Move disc X from A to B" where A and B are pegs, and X is the disc number.
+* Calculates and displays the total number of moves needed to solve the puzzle, which is 2^n - 1 where n is the number of discs.
+
 # patternmatching.c
 This C program performs a simple pattern matching and replacement operation on a given string. The program takes in three inputs:
 * Main string - the string in which the pattern will be searched.
