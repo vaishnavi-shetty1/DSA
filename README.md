@@ -1,3 +1,35 @@
+# SLL.c
+This C program implements a Singly Linked List (SLL) to manage student data with the following operations:
+* Insert student data at the front of the list.
+* Insert student data at the end of the list.
+* Delete student data from the front of the list.
+* Delete student data from the end of the list.
+* Stack demo for insertion and deletion at the front (LIFO).
+* Display all student data stored in the list.
+  
+Features
+* Each student is represented as a node containing:
+  * USN (University Serial Number)
+  * Name
+  * Branch
+  * Semester
+  * Phone Number
+* Menu-driven interface allows the user to:
+  * Create a linked list with multiple student records.
+  * Insert a student at the front or end.
+  * Delete a student from the front or end.
+  * Display all the student records.
+  * Demonstrate stack operations with insertion and deletion at the front.
+  
+Program Functions
+1. create() – Creates a new student node and inserts it at the front or end of the list.
+2. insertfront() – Inserts a new student node at the front of the list.
+3. deletefront() – Deletes a student node from the front of the list.
+4. insertend() – Inserts a new student node at the end of the list.
+5. deleteend() – Deletes a student node from the end of the list.
+6. display() – Displays all student data in the list.
+7. stackdemo() – Demonstrates stack operations (Push and Pop) using the front of the linked list.
+
 # calendar.c
 This program allows the user to manage a weekly activity calendar. It dynamically stores details for each day of the week, such as the day name, date, and activity. The program allows the user to input these details, displays the entire week's schedule, and ensures that memory is properly managed with dynamic allocation and deallocation.
 
