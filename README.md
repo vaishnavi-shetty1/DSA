@@ -1,3 +1,23 @@
+# DLL.c
+This C program implements a Doubly Linked List (DLL) to manage employee records. The program allows various operations such as inserting and deleting nodes from the front or end of the list, as well as performing Double Ended Queue (DEQ) operations using the DLL structure.
+
+Features
+* Employee Node contains the following attributes:
+  * SSN (Social Security Number)
+  * Name
+  * Department
+  * Designation
+  * Salary
+  * Phone Number
+* Operations supported:
+  * Insert at Front – Adds an employee node at the front of the list.
+  * Insert at End – Adds an employee node at the end of the list.
+  * Delete from Front – Removes the employee node from the front of the list.
+  * Delete from End – Removes the employee node from the end of the list.
+  * Double Ended Queue Demo – A demonstration of queue operations (Insert and Delete at both ends).
+  * Display – Displays all employee nodes in the DLL.
+
+
 # SLL.c
 This C program implements a Singly Linked List (SLL) to manage student data with the following operations:
 * Insert student data at the front of the list.
