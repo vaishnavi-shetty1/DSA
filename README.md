@@ -17,6 +17,35 @@ Features
   * Double Ended Queue Demo – A demonstration of queue operations (Insert and Delete at both ends).
   * Display – Displays all employee nodes in the DLL.
 
+# SCLL.c
+This project demonstrates the implementation of basic polynomial operations (evaluation and addition) on polynomials in three variables (x, y, z). The program uses linked lists to represent polynomials and provides a menu-driven interface to evaluate polynomials and find the sum of two polynomials.
+
+Features
+- Polynomial Representation: Polynomials are represented as a linked list where each node contains the coefficient and exponents of x, y, and z.
+- Polynomial Evaluation: Given a polynomial and values for x, y, and z, the program evaluates the polynomial.
+- Polynomial Addition: The program can sum two polynomials term by term, combining like terms (i.e., terms with the same exponents for x, y, and z).
+
+Functions
+1. getnode() : Allocates memory for a new polynomial node and returns a pointer to it.
+2. attach(int coef, int xexp, int yexp, int zexp, NODE head) : Attaches a new term (with a given coefficient and exponents) to the linked list that represents the polynomial.
+3. read_poly(NODE head) : Reads a polynomial from the user, where each term consists of a coefficient and the exponents of x, y, and z.
+4. display(NODE head) : Displays the polynomial stored in the linked list in a human-readable format.
+5. poly_evaluate(NODE head) : Evaluates the polynomial for given values of x, y, and z and returns the result.
+6. poly_sum(NODE head1, NODE head2, NODE head3) : Calculates the sum of two polynomials and returns a new polynomial that represents the sum.
+7. main() : The main function provides a menu for the user to choose between evaluating a polynomial or adding two polynomials.
+
+Menu Options
+1. Represent and Evaluate a Polynomial P(x, y, z)
+
+    Allows the user to input a polynomial and its values for x, y, and z, then evaluates and displays the result.
+
+2. Find the Sum of Two Polynomials POLY1(x, y, z)
+
+    Allows the user to input two polynomials and calculates their sum.
+
+3. Exit
+
+    Exits the program.
 
 # SLL.c
 This C program implements a Singly Linked List (SLL) to manage student data with the following operations:
