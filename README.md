@@ -1,3 +1,16 @@
+# BST.c
+This repository contains a simple implementation of a Binary Search Tree (BST) in C, featuring the following operations:
+- Create a BST: Allows you to create a binary search tree by inserting elements.
+- Search: Search for a specific element in the BST.
+- Inorder Traversal: Traverse the tree in an inorder manner.
+- Preorder Traversal: Traverse the tree in a preorder manner.
+- Postorder Traversal: Traverse the tree in a postorder manner.
+  
+Features
+- Dynamic Memory Allocation: Uses malloc to allocate memory for new nodes.
+- Recursive Traversals: Implements inorder, preorder, and postorder traversal using recursion.
+- Element Search: Allows searching for a specific element in the tree, and returns whether it exists or not.
+
 # DLL.c
 This C program implements a Doubly Linked List (DLL) to manage employee records. The program allows various operations such as inserting and deleting nodes from the front or end of the list, as well as performing Double Ended Queue (DEQ) operations using the DLL structure.
 
