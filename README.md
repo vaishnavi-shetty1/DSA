@@ -30,6 +30,18 @@ Features
   * Double Ended Queue Demo – A demonstration of queue operations (Insert and Delete at both ends).
   * Display – Displays all employee nodes in the DLL.
 
+# hashtable.c
+This project implements a hash table for storing employee records using open addressing and linear probing. The program uses a hash table to store and retrieve employee keys (integers). It uses modular hashing to calculate the index, and in case of a collision, it uses linear probing to find the next available slot.
+
+Key Features
+- Insertion: Insert employee records (keys) into the hash table using modular hashing and linear probing in case of collisions.
+- Linear Probing: When a hash collision occurs (i.e., two keys hash to the same index), the program probes the next slot linearly until an empty slot is found.
+- Display: Prints the contents of the hash table after insertion.
+  
+Core Operations
+- Insert: This function inserts a key into the hash table. If the key's hashed index is already occupied, it probes the next slot until an empty one is found.
+- Display: This function prints out the contents of the hash table
+
 # SCLL.c
 This project demonstrates the implementation of basic polynomial operations (evaluation and addition) on polynomials in three variables (x, y, z). The program uses linked lists to represent polynomials and provides a menu-driven interface to evaluate polynomials and find the sum of two polynomials.
 
