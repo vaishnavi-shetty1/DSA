@@ -38,7 +38,7 @@ Features
 - DFS: Traverses the graph by exploring as far as possible along each branch before backtracking.
 - Both algorithms can handle disconnected graphs and print which vertices are not reachable from the starting node.
 
-# hashtable.c
+# Hashtable.c
 This project implements a hash table for storing employee records using open addressing and linear probing. The program uses a hash table to store and retrieve employee keys (integers). It uses modular hashing to calculate the index, and in case of a collision, it uses linear probing to find the next available slot.
 
 Key Features
