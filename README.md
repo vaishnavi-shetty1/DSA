@@ -30,6 +30,14 @@ Features
   * Double Ended Queue Demo – A demonstration of queue operations (Insert and Delete at both ends).
   * Display – Displays all employee nodes in the DLL.
 
+# Graph.c
+This C program demonstrates two fundamental graph traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS). The program uses an adjacency matrix to represent a graph and allows the user to perform BFS and DFS starting from a given vertex.
+
+Features
+- BFS: Traverses the graph level by level, printing all nodes reachable from the given starting vertex.
+- DFS: Traverses the graph by exploring as far as possible along each branch before backtracking.
+- Both algorithms can handle disconnected graphs and print which vertices are not reachable from the starting node.
+
 # hashtable.c
 This project implements a hash table for storing employee records using open addressing and linear probing. The program uses a hash table to store and retrieve employee keys (integers). It uses modular hashing to calculate the index, and in case of a collision, it uses linear probing to find the next available slot.
 
